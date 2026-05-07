@@ -69,7 +69,6 @@ The compiled JAR will be at `target/Spectral_Unmixing-1.0.0.jar`.
 
 ### Linear Unmixing (ROI-based)
 
-Follows the Nuance Manual Compute Spectra workflow:
 
 1. Draw ROIs over spectrally pure regions on the image
 2. Press **T** after each ROI to add it to the ROI Manager
@@ -88,7 +87,7 @@ Follows the Nuance Manual Compute Spectra workflow:
 
 ### PCA / VCA Unmixing
 
-Implements Vertex Component Analysis (Nascimento & Dias, IEEE 2005) — the algorithm behind Nuance's Real Component Analysis (RCA):
+Implements Vertex Component Analysis (Nascimento & Dias, IEEE 2005):
 
 1. Switch mode to **PCA / VCA Unmixing** in the panel
 2. Enter the number of components to extract
